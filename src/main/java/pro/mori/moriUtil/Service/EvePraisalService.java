@@ -9,5 +9,4 @@ package pro.mori.moriUtil.Service;
 
 public interface EvePraisalService {
 
-
 }
