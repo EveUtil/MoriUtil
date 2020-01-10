@@ -11,6 +11,9 @@ public interface FormatUtil {
 
     String test();
 
+    String deleteCharString(String sourceString, char chElemData);
+
+
 
 
 }

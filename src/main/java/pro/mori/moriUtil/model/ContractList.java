@@ -13,7 +13,7 @@ import java.io.Serializable;
  **/
 
 @Data
-public class ListInfo implements Serializable {
+public class ContractList implements Serializable {
     private static final long serialVersionUID = 1L;
 
     //物品名称

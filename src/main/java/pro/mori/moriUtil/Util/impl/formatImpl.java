@@ -15,4 +15,15 @@ public class formatImpl implements FormatUtil {
     public String test() {
         return "test";
     }
+
+    @Override
+    public String deleteCharString(String sourceString, char chElemData) {
+        StringBuffer stringBuffer = new StringBuffer("");
+        for (int i = 0; i < sourceString.length(); i++) {
+            if (sourceString.charAt(i) != chElemData) {
+                stringBuffer.append(sourceString.charAt(i));
+            }
+        }
+        return stringBuffer.toString();
+    }
 }
