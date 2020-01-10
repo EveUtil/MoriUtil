@@ -1,5 +1,8 @@
 package pro.mori.moriUtil.Util;
 
+import com.alibaba.fastjson.JSONObject;
+import pro.mori.moriUtil.model.PostInfo;
+
 /**
  * @Author : Mori
  * @Version : 1.0
@@ -10,7 +13,7 @@ package pro.mori.moriUtil.Util;
 public interface HttpClient {
 
 
-    String postGeneralUrl(String generalUrl, String contentType, String params) throws Exception;
+    JSONObject postGeneralUrl(PostInfo postInfo) throws Exception;
 
     String getParam(String[] param);
 

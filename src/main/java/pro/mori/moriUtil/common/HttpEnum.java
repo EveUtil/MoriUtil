@@ -8,7 +8,7 @@ package pro.mori.moriUtil.common;
  **/
 
 public enum  HttpEnum {
-    FROM(1,"application/x-www-form-urlencoded");
+    FROM(1,"application/x-www-form-urlencoded;charset=utf-8");
 
     private int Code;
 

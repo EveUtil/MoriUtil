@@ -9,8 +9,8 @@ package pro.mori.moriUtil.common;
 
 public enum  UrlEnum {
 
+//    EVE_PRICE_API("Url-01","https://evepraisal.com/appraisal.json"),
     EVE_PRICE_API("Url-01","https://evepraisal.com/appraisal.json");
-//    EVE_PRICE_API("Url-01","https://evepraisal.com/appraisal.json");
 
     private String code;
 
