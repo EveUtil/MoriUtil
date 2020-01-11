@@ -9,8 +9,8 @@ package pro.mori.moriUtil.config;
 
 public class ConsoleConfig {
 
-    public static final String ConsoleHead = "--> ";
+    public static final String ConsoleHead = "——> ";
 
-    public static final String ConsoleKong = " ";
+    public static final String ConsoleKong = " |—— ";
 
 }

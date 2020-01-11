@@ -17,6 +17,10 @@ public interface FormatPrintf {
 
     void outPrintln(String print);
 
+    void outPrintln(int print);
+
+    void outTwoPrintln(String print);
+
     void outPrintf(String print);
 
     void listContractPrintf(List<ContractList> print);
